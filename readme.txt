@@ -8,25 +8,22 @@ The purpose of this tool is to provide financial analytics for a certain set of 
 - Difficulty in integrating the financial information available, with the financial news due to lack of accessible tools and guidance
 - Complexity and inaccessibility of financial data can refrain people from entering the stock market and making informed decisions
 
-## Contributors
+# case scenarios 
+Case 1 - This is where we captured the data using Bard for the finalized financial matrix and performed analysis on that data to understand if the selected companies are good to invest right now and how much return a person can anticipate. Also, we performed the sentiment analysis and reviewed the latest news trends for that company
+Case 2 - In this case we captured the data from a globally known source for financial data - CapitalIQ. We created a clean excel file which had the financial fields for the selected companies and passed that data to PaLM Api to analyze if this is a good time to invest in those companies  and how much return a person can anticipate. Also, we performed the sentiment analysis and reviewed the latest news trends for that company
 
-- Team Name: Team Finlytics
-- Team Members: Anoop Kaur, Dakshta Mehta, Megha Maliwal, Saanika Shahi, Sara Rustagi
+## File structure - 
+1. Google Hackathon Finlytics.ipynb - Python notebook which has all the code for PaLM API, analysis and results
+2. Financial_DatabyCapitalIQ.xlsx - Financial data captured from CapitalIQ 
+3. case1_final_data_generated_bybard_analysis.xlsx - Contains results based on the data collected using Bard and performed financial and sentiment analysis also based on Bard
+4. case2_Bard_analysis_basedon_capitalIQ.xlsx - Contains results based on the data collected using CapitalIQ and performed financial and sentiment analysis also based on Bard
 
-## Methodology
-
-We have conducted a systematic evaluation of Bard's performance in pulling financial metrics. Our methodology includes:
-1. **Data Collection:** We gathered a diverse set of financial data from various sources like CapitalIQ, and Yahoo Finance.
-2. **Bard Integration:** We integrated Bard to pull financial data for the same set of metrics.
-3. **Data Comparison:** We compared the data extracted by Bard to the ground truth data.
-4. **Analysis:** We conducted a detailed analysis of the discrepancies and inaccuracies in Bard's output.
-5. **MakerSuite:** We built a data-tuning model for the selected companies to analyze the results and 
-
-## Findings
-
+# Results - 
 Our preliminary findings indicate that Bard does not consistently provide accurate financial metrics. The discrepancies and inaccuracies found in the data extracted by Bard raise concerns about its reliability for financial analysis.
 
-## Code links
+## Contributors
+- Team Name: Team Finlytics
+- Team Members: Anoop Kaur, Dakshta Mehta, Megha Maliwal, Saanika Shahi, Sara Rustagi
 
 **Disclaimer:** This project is in no way affiliated with or endorsed by Bard or its developers. It is an independent evaluation conducted by Team Finlytics.
 
