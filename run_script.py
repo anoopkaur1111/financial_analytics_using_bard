@@ -172,9 +172,8 @@ def complete_process(company_name,dates,type1):
     return final_data
 
 
-
-
-
 def final_response(company_name, date, type1):
     return complete_process(company_name,date,type1)
+
+final_response(company_name,date,type1)
     
